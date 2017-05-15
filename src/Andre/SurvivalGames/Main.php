@@ -284,7 +284,7 @@ class Main extends PluginBase implements Listener
 				$this->SetStatus[$name]=0;
 				$sender->sendMessage("Tap a sign to set it as join sign!");
 			}
-		}else{
+		else{
 			$sender->sendMessage(TextFormat::RED . "You may only use ths command in-game!");
 			return true;		
 		}
