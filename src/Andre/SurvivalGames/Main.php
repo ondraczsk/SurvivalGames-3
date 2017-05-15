@@ -276,7 +276,8 @@ class Main extends PluginBase implements Listener
 			if($this->config->exists("lastpos"))
 			{
 				$sender->sendMessage("Seems like you have already setup an arena");
-			}
+			} 
+      }
 			else
 			{
 				$name=$sender->getName();
